@@ -1,0 +1,44 @@
+{
+  "name": "copypalette",
+  "version": "1.0.0",
+  "description": "Hassle-free export your palette to SVG",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@analytics/google-analytics": "0.5.0",
+    "@material-ui/core": "4.2.0",
+    "analytics": "0.5.5",
+    "history": "5.0.0",
+    "interjection-js": "^1.0.0",
+    "polished": "3.4.1",
+    "react": "16.8.6",
+    "react-color": "2.17.3",
+    "react-cookie": "^4.0.3",
+    "react-copy-to-clipboard": "5.0.1",
+    "react-dom": "16.8.6",
+    "react-icons": "3.7.0",
+    "react-numeric-input": "2.2.3",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1",
+    "react-toast-notifications": "2.2.1",
+    "reshader": "1.0.0",
+    "styled-components": "4.3.2",
+    "use-dark-mode": "2.3.1",
+    "values.js": "1.0.3"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
