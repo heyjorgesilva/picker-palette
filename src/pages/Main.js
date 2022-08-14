@@ -70,9 +70,8 @@ function Main({
           <Link to="/">Picker Palette</Link>
         </h1>
         <P>
-        Crie paleta de cores SVG e exporte para sua ferramenta favorita (Figma, Sketch, Adobe XD etc.)</P>
-        <P>usando o <Badge>COPIAR</Badge> e <Badge>COLAR.</Badge>
-        </P>
+        Crie paleta de cores SVG e exporte para sua ferramenta favorita</P>
+        <P>(Figma, Sketch, Adobe XD etc.) usando o <Badge>COPIAR</Badge> e <Badge>COLAR.</Badge></P>
         {/* <ProductHuntWidget isAbsolute={false} isDark={isDark} /> */}
       </InfoContainer>
 
