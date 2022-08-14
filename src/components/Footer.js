@@ -33,14 +33,17 @@ const Footer = ({ color }) => {
   return (
     <Container>
       <Sup>
-        Designed and Built by{" "}
-        <Anchor href="https://www.linkedin.com/in/ojorgesilva/" color={color}>
+        <Anchor href="https://www.linkedin.com/in/ojorgesilva" title="🙌 Copy the SVG palette" alt="🙌 Copy the SVG palette" color={color}>
           Linkedin
         </Anchor>
         {" "}|{" "}
         <Anchor href="https://artigos.jorgesilva.design/" color={color}>
           Artigos
         </Anchor>
+        {" "}|{" "}
+        <Anchor href="https://artigos.jorgesilva.design/" color={color}>
+          Dribbble
+        </Anchor>                
       </Sup>
     </Container>
   );
