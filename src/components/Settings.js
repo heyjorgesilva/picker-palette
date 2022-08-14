@@ -30,10 +30,6 @@ const Wrapper = styled.div`
   }
 `;
 
-const FiSettings = styled.div`
-  cursor: pointer;
-`;
-
 const Dropdown = styled.div`
   padding: 1rem;
   margin: 1rem;
