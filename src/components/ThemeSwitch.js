@@ -5,7 +5,7 @@ import { withStyles } from "@material-ui/core/styles";
 import { FiSun, FiMoon } from "react-icons/fi";
 import styled, { withTheme } from "styled-components";
 
-const DARK = "#212121";
+const DARK = "#15151B";
 const LIGHT = "#f5f5f5";
 
 const Wrapper = styled.div`
