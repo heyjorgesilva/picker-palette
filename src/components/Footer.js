@@ -33,7 +33,7 @@ const Footer = ({ color }) => {
   return (
     <Container>
       <Sup>
-        <Anchor href="https://www.linkedin.com/in/ojorgesilva" title="🙌 Copy the SVG palette" alt="🙌 Copy the SVG palette" color={color}>
+        <Anchor href="https://www.linkedin.com/in/ojorgesilva" title="Conectar no Linkedin" alt="Conectar no Linkedin" color={color}>
           Linkedin
         </Anchor>
         {" "}|{" "}
