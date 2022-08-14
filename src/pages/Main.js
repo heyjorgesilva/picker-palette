@@ -70,8 +70,8 @@ function Main({
           <Link to="/">Picker Palette</Link>
         </h1>
         <P>
-        Crie sua paleta SVG e exporte para o seu projeto no Figma/Sketch usando apenas{" "}
-          <Badge>COPIAR</Badge> e <Badge>COLAR</Badge>
+        Crie paleta de cores SVG e exporte para sua ferramenta de design favorita (Figma, Sketch, Adobe XD etc.) usando o{" "}
+          <Badge>COPIAR</Badge> e <Badge>COLAR.</Badge>
         </P>
         {/* <ProductHuntWidget isAbsolute={false} isDark={isDark} /> */}
       </InfoContainer>
