@@ -13,4 +13,15 @@ const defaultStyles = {
   margin: "1rem"
 };
 
+export const ProducHuntWidget = ({ isDark, isAbsolute }) => {
+  const styles = isAbsolute ? absoluteStyles : defaultStyles;
+  return (
+    <a
+      href="https://www.producthunt.com/posts/copypalette?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-copypalette"
+      target="_blank"
+    >
+    </a>
+  );
+};
+
 export default ProducHuntWidget;
