@@ -17,7 +17,7 @@ import "./utils/analytics";
 
 const GlobalStyle = createGlobalStyle`
   * {
-    font-family: "Muli", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     margin: 0;  
   }
   html {
