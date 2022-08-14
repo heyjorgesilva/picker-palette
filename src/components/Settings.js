@@ -20,7 +20,7 @@ const Wrapper = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
+  cursor: pointer;
   /* position: fixed;
   padding: 2rem;
   top: 0;
@@ -55,7 +55,6 @@ const Item = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-
   cursor: pointer;
 
   &:hover {
