@@ -28,7 +28,7 @@ const Logo = () => (
   <Link to="/">
     <Container>
       <LogoIcon width={32} height={32} />
-      <p>CopyPalette</p>
+      <p>Picker Palette</p>
     </Container>
   </Link>
 );

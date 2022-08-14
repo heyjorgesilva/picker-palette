@@ -34,12 +34,12 @@ const Footer = ({ color }) => {
     <Container>
       <Sup>
         Designed and Built by{" "}
-        <Anchor href="https://twitter.com/d__raptis" color={color}>
-          @draptis
+        <Anchor href="https://www.linkedin.com/in/ojorgesilva/" color={color}>
+          Linkedin
         </Anchor>
-        {" "}and{" "}
-        <Anchor href="https://designstripe.com/" color={color}>
-          designstripe
+        {" "}|{" "}
+        <Anchor href="https://artigos.jorgesilva.design/" color={color}>
+          Artigos
         </Anchor>
       </Sup>
     </Container>
