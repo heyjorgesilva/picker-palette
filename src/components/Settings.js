@@ -96,7 +96,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
             <FiEdit />
             <p>Toggle Palette</p>
           </Item>
-          <Item color={color} onClick={() => history.push("/about")}>
+          {/* <Item color={color} onClick={() => history.push("/about")}>
             <FiInfo />
             <p>About</p>
           </Item>
@@ -108,11 +108,11 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
           >
             <FiGift />
             <p>Support</p>
-          </Item>
+          </Item> */}
         </Dropdown>
       </Popper>
 
-      <Tooltip title="Share love 🙌" placement="bottom">
+      <Tooltip title="Gostou, então compartilhe 🙌" placement="bottom">
         <div>
           <FiHeart size={20} onClick={tweet} fill={color} color={color} />
         </div>

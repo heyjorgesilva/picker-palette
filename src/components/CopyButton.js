@@ -32,13 +32,13 @@ const CopyButton = ({ text }) => {
     <CopyToClipboard
       text={text}
       onCopy={() =>
-        addToast(`${getRandomInterjection()}! Copied! 👏`, {
+        addToast(`${getRandomInterjection()}! Copiado! 👍`, {
           appearance: "success",
           autoDismiss: true
         })
       }
     >
-      <Tooltip title="🙌 Copy the SVG palette">
+      <Tooltip title="👆 Copiar paleta SVG">
         <Button>
           <FiCopy />
         </Button>
