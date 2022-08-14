@@ -89,8 +89,8 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
     <Wrapper>
       <ThemeSwitch onChange={handleTheme} />
 
-      <FiSettings onClick={handleClick} size={20} />
-      {/* <Popper id={id} open={open} anchorEl={anchorEl}>
+      {/* <FiSettings onClick={handleClick} size={20} />
+      <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
           <Item color={color} onClick={handleType}>
             <FiEdit />
@@ -110,13 +110,13 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
             <p>Support</p>
           </Item>
         </Dropdown>
-      </Popper> */}
+      </Popper>
 
       <Tooltip title="Gostou, então compartilhe 🙌" placement="bottom">
         <div>
           <FiHeart size={20} onClick={tweet} fill={color} color={color} />
         </div>
-      </Tooltip>
+      </Tooltip> */}
     </Wrapper>
   );
 };
