@@ -67,11 +67,11 @@ function Main({
     <Container>
       <InfoContainer>
         <h1>
-          <Link to="/">CopyPalette</Link>
+          <Link to="/">Picker Palette</Link>
         </h1>
         <P>
-          Create your SVG palette and use it in Figma/Sketch by just using{" "}
-          <Badge>COPY</Badge> and <Badge>PASTE</Badge>
+        Crie sua paleta SVG com até 11 variações que pode ser utilizada em projetos do Figma / Sketch usando apenas{" "}
+          <Badge>COPIAR</Badge> e <Badge>COLAR</Badge>
         </P>
         {/* <ProductHuntWidget isAbsolute={false} isDark={isDark} /> */}
       </InfoContainer>
