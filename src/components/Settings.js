@@ -87,9 +87,9 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
   const id = open ? "simple-popper" : undefined;
   return (
     <Wrapper>
-      <ThemeSwitch onChange={handleTheme} title="Conectar no Linkedin" />
+      <ThemeSwitch onChange={handleTheme} />
 
-      {/* <FiSettings onClick={handleClick} size={20} />
+      <FiSettings onClick={handleClick} size={20} />
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
           <Item color={color} onClick={handleType}>
@@ -112,11 +112,11 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
         </Dropdown>
       </Popper>
 
-      <Tooltip title="Gostou, então compartilhe 🙌" placement="bottom">
+      <Tooltip title="Share love 🙌" placement="bottom">
         <div>
           <FiHeart size={20} onClick={tweet} fill={color} color={color} />
         </div>
-      </Tooltip> */}
+      </Tooltip>
     </Wrapper>
   );
 };
