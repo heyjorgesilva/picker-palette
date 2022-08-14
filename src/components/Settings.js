@@ -88,9 +88,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
   return (
     <Wrapper>
       <ThemeSwitch onChange={handleTheme} />
-      <Button>
-          <FiCopy/>
-        </Button>
+
       <FiSettings onClick={handleClick} size={20} />
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
