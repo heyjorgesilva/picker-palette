@@ -70,7 +70,7 @@ function Main({
           <Link to="/">Picker Palette</Link>
         </h1>
         <P>
-        Crie sua paleta SVG com até 11 variações que pode ser utilizada em projetos do Figma / Sketch usando apenas{" "}
+        Crie sua paleta SVG e exporte para o seu projeto no Figma/Sketch usando apenas{" "}
           <Badge>COPIAR</Badge> e <Badge>COLAR</Badge>
         </P>
         {/* <ProductHuntWidget isAbsolute={false} isDark={isDark} /> */}
