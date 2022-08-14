@@ -20,7 +20,6 @@ const Wrapper = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   /* position: fixed;
   padding: 2rem;
   top: 0;
@@ -29,6 +28,10 @@ const Wrapper = styled.div`
   & > * {
     margin-left: 2rem;
   }
+`;
+
+const FiSettings = styled.div`
+  cursor: pointer;
 `;
 
 const Dropdown = styled.div`
