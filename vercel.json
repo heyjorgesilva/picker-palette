@@ -5,7 +5,7 @@
       "has": [
         {
           "type": "host",
-          "value": "apps.jorgesilva.design"
+          "value": "pickerpalette.jorgesilva.design"
         }
       ],
       "destination": "/pickerpalette/:path*"
