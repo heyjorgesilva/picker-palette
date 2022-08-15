@@ -1,6 +1,15 @@
 {
   "rewrites": [
-    { "source": "/pomodoro/", "destination": "https://pickerpalette.vercel.app/" },
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "apps.jorgesilva.design"
+        }
+      ],
+      "destination": "/pickerpalette/:path*"
+    }
   ]
 }
+
