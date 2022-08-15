@@ -90,29 +90,28 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
       <FiSettings onClick={handleClick} size={20} />
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
+
           <Item color={color} onClick={handleType}>
             <FiEdit />
-            <p>Toggle Palette</p>
+            <p>Link 01</p>
           </Item>
+
           <Item color={color} onClick={() => history.push("/about")}>
             <FiInfo />
-            <p>About</p>
+            <p>Link 02</p>
           </Item>
-          <Item
-            color={color}
-            onClick={() =>
-              (window.location.href = "https://www.buymeacoffee.com/dmraptis")
-            }
-          >
+
+          <Item color={color} onClick={() => (window.location.href = "https://www.buymeacoffee.com/dmraptis")}>
             <FiGift />
-            <p>Support</p>
+            <p>Link 03</p>
           </Item>
+
         </Dropdown>
       </Popper>
 
       <Tooltip title="Share love 🙌" placement="bottom">
         <div>
-          <FiHeart size={20} onClick={tweet} fill={color} color={color} />
+          <FiShare size={20} onClick={tweet} fill={color} color={color} />
         </div>
       </Tooltip>
     </Wrapper>
