@@ -112,7 +112,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
 
       <Tooltip title="Share love 🙌" placement="bottom">
         <div>
-          <FiShare size={20} onClick={tweet} fill={color} color={color} />
+          <FiShare2 size={20} onClick={tweet} fill={color} color={color} />
         </div>
       </Tooltip>
     </Wrapper>
