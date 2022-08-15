@@ -50,15 +50,15 @@ const OptionsGroup = ({
 }) => (
   <Container>
     <OptionsContainer>
-      <Option icon={<PaletteIcon />} label={"Base Color:"}>
+      <Option icon={<PaletteIcon />} label={"Cor base:"}>
         <Picker onChange={setColor} value={color} />
       </Option>
 
-      <Option icon={<ContrastIcon />} label={"Contrast:"}>
+      <Option icon={<ContrastIcon />} label={"Contraste:"}>
         <Slider value={contrast} onChange={setContrast} />
       </Option>
 
-      <Option icon={<VariationsIcon />} label={"Variations:"}>
+      <Option icon={<VariationsIcon />} label={"Variações:"}>
         <NumberInput
           min={1}
           max={5}
