@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/pickerpalette/:asset*", "destination": "https://pickerpalette.vercel.app/:asset*" },
+    { "source": "/(.*)", "destination": "https://pickerpalette.vercel.app/:asset*" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
