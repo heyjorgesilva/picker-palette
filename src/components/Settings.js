@@ -8,7 +8,8 @@ import {
   FiGift,
   FiInfo,
   FiEdit,
-  FiHeart
+  FiHeart,
+  FiShare
 } from "react-icons/fi";
 import Popper from "@material-ui/core/Popper";
 
