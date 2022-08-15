@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/pomodoro/:asset*", "destination": "https://pomodoro-murex.vercel.app/:asset*" },
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/pickerpalette/:asset*", "destination": "https://pickerpalette.vercel.app/:asset*" }
   ]
 }
