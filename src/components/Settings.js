@@ -9,7 +9,7 @@ import {
   FiInfo,
   FiEdit,
   FiHeart,
-  FiShare
+  FiShare2
 } from "react-icons/fi";
 import Popper from "@material-ui/core/Popper";
 
