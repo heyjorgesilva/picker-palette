@@ -68,7 +68,7 @@ const Item = styled.div`
   }
 `;
 
-const Tooltip = styled.div`
+const Social = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -129,9 +129,9 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
       </Popper>
 
       <Tooltip title="Conectar no Linkedin" placement="bottom">
-        <div>
+        <Social>
           <FiLinkedin size={20} onClick={tweet} fill={color} color={color} />
-        </div>
+        </Social>
       </Tooltip>
     </Wrapper>
   );
