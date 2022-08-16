@@ -68,7 +68,7 @@ const Item = styled.div`
   }
 `;
 
-const FiLinkedin = styled.div`
+const Tooltip = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
