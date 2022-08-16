@@ -9,7 +9,6 @@ import {
   FiInfo,
   FiEdit,
   FiHeart,
-  FiShare2,
   FiLinkedin
 } from "react-icons/fi";
 import Popper from "@material-ui/core/Popper";
@@ -67,14 +66,6 @@ const Item = styled.div`
   & > *:last-child {
     margin-right: 0;
   }
-`;
-
-const Item = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  cursor: pointer;
 `;
 
 const tweet = () => {
