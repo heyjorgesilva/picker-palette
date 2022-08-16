@@ -68,6 +68,14 @@ const Item = styled.div`
   }
 `;
 
+const Item = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+`;
+
 const tweet = () => {
   const url =
     "https://twitter.com/intent/tweet?text=Copy%20Palette%20%7C%20Seamless%20color%20palette%20generation%20🎨%0A%0Ahttps://copypalette.app";
@@ -88,10 +96,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
     <Wrapper>
       <ThemeSwitch onChange={handleTheme} />
 
-      <Item color={color} onClick={handleType}>
-        <FiSettings onClick={handleClick} size={20} />
-      </Item>
-      
+      <FiSettings onClick={handleClick} size={20} />
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
 
@@ -115,7 +120,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
 
       <Tooltip title="Share love 🙌" placement="bottom">
         <div>
-          <FiShare2 size={20} onClick={tweet} fill={color} color={color} />
+          <FiLinkedin size={20} onClick={tweet} fill={color} color={color} />
         </div>
       </Tooltip>
     </Wrapper>
