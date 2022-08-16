@@ -68,6 +68,24 @@ const Item = styled.div`
   }
 `;
 
+const FiLinkedin = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    color: ${props => props.color};
+  }
+  & > * {
+    margin-right: 0.5rem;
+  }
+  & > *:last-child {
+    margin-right: 0;
+  }
+`;
+
 const tweet = () => {
   const url =
     "https://twitter.com/intent/tweet?text=Copy%20Palette%20%7C%20Seamless%20color%20palette%20generation%20🎨%0A%0Ahttps://copypalette.app";
