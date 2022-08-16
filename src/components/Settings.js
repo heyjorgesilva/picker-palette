@@ -86,9 +86,9 @@ const Social = styled.div`
   }
 `;
 
-const tweet = () => {
+const linkedin = () => {
   const url =
-    "https://twitter.com/intent/tweet?text=Copy%20Palette%20%7C%20Seamless%20color%20palette%20generation%20🎨%0A%0Ahttps://copypalette.app";
+    "https://www.linkedin.com/in/ojorgesilva";
   const win = window.open(url, "_blank");
   win.focus();
 };
@@ -130,7 +130,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
 
       <Tooltip title="Conectar no Linkedin" placement="bottom">
         <Social>
-          <FiLinkedin size={20} onClick={tweet} fill={color} color={color} />
+          <FiLinkedin size={20} onClick={linkedin} fill={color} color={color} />
         </Social>
       </Tooltip>
     </Wrapper>
