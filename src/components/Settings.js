@@ -118,7 +118,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
         </Dropdown>
       </Popper>
 
-      <Tooltip title="Share love 🙌" placement="bottom">
+      <Tooltip title="Conectar no Linkedin" placement="bottom">
         <div>
           <FiLinkedin size={20} onClick={tweet} fill={color} color={color} />
         </div>
