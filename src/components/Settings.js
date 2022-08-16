@@ -106,7 +106,11 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
     <Wrapper>
       <ThemeSwitch onChange={handleTheme} />
 
+
+      <Item>
       <FiSettings onClick={handleClick} size={20} />
+      <p>Seguir nas redes</p>
+      </Item>
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
 
