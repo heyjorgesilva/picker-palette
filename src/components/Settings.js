@@ -137,15 +137,15 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
     <Wrapper>
       <ThemeSwitch onChange={handleTheme} />
 
-
       <Item>
-      <FiShare2 onClick={handleClick} size={20} />
       <p>Compartilhe</p>
       </Item>
 
-      <Item size={20} onClick={linkedin} fill={color} color={color}>
-        <FiLinkedin/>
-      </Item>
+      <Tooltip title="Compartilhar no LinkedIn" placement="bottom">
+        <Social>
+          <FiLinkedin size={20} onClick={linkedin} fill={color} color={color} />
+        </Social>
+      </Tooltip>
 
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
@@ -178,6 +178,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
           <FiLinkedin size={20} onClick={linkedin} fill={color} color={color} />
         </Social>
       </Tooltip>
+
     </Wrapper>
   );
 };
