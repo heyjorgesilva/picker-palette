@@ -90,7 +90,7 @@ const Social = styled.div`
 const linkedin = () => {
   const url =
     "https://www.linkedin.com/in/ojorgesilva";
-  const win = window.open(url, "_blank", "width=640, height=355");
+  const win = window.open(url, "_blank", "width=640, height=480, left=600, top=600");
   win.focus();
 };
 
