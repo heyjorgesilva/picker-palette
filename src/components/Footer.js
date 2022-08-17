@@ -33,9 +33,11 @@ const Footer = ({ color }) => {
   return (
     <Container>
       <Sup>
-        <Anchor href="https://www.linkedin.com/in/ojorgesilva" target="_blank" title="Conectar no Linkedin" alt="Conectar no Linkedin" color={color}>
+      <Tooltip title="Conectar no Linkedin" placement="top">
+        <Anchor href="https://www.linkedin.com/in/ojorgesilva" target="_blank" color={color}>
           Linkedin
         </Anchor>
+        </Tooltip>
         {" "}|{" "}
         <Anchor href="https://artigos.jorgesilva.design/" color={color}>
           Medium
