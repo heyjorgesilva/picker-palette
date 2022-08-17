@@ -100,7 +100,7 @@ const facebook = () => {
 
 const twitter = () => {
   const url =
-    "https://bit.ly/twitter-pickerpalette";
+    "https://twitter.com/intent/tweet?url=https://pickerpalette.jorgesilva.design&text=Picker%20Palette%20%7C%20Gerador%20de%20Paleta%20de%20Cores.%20Crie%20paleta%20de%20cores%20SVG%20e%20exporte%20para%20sua%20ferramenta%20de%20design%20favorita%20(Figma,%20Sketch,%20Adobe%20XD%20etc.)%20usando%20o%20COPIAR%20e%20COLAR.";
   const win = window.open(url, "_blank", "width=640, height=480, left=640, top=200");
   win.focus();
 };

@@ -34,19 +34,29 @@ const Footer = ({ color }) => {
   return (
     <Container>
       <Sup>
-      <Tooltip title="Conectar no Linkedin" placement="top">
-        <Anchor href="https://www.linkedin.com/in/ojorgesilva" target="_blank" color={color}>
+        <Tooltip title="Conectar no Linkedin" placement="top">
+          <Anchor href="https://www.linkedin.com/in/ojorgesilva" target="_blank" color={color}>
           Linkedin
-        </Anchor>
+          </Anchor>
         </Tooltip>
         {" "}|{" "}
-        <Anchor href="https://artigos.jorgesilva.design/" color={color}>
-          Medium
-        </Anchor>
+        <Tooltip title="Ler artigos" placement="top">  
+          <Anchor href="https://artigos.jorgesilva.design/" color={color}>
+          Artigos
+          </Anchor>
+        </Tooltip>
         {" "}|{" "}
-        <Anchor href="https://dribbble.com/ojorgesilva" color={color}>
+        <Tooltip title="Ver Shots no Dribbble" placement="top">
+          <Anchor href="https://dribbble.com/ojorgesilva" color={color}>
           Dribbble
-        </Anchor>                
+          </Anchor>                
+        </Tooltip>
+        {" "}|{" "}
+        <Tooltip title="Ver Projetos no Behance" placement="top">
+          <Anchor href="https://www.behance.net/ojorgesilva" color={color}>
+          Behance
+          </Anchor>                
+        </Tooltip>
       </Sup>
     </Container>
   );
