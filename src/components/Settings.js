@@ -137,43 +137,33 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
     <Wrapper>
       <ThemeSwitch onChange={handleTheme} />
 
-      <Item>
       <p>Compartilhe</p>
-      </Item>
 
-      <Tooltip title="Compartilhar no LinkedIn" placement="bottom">
+      <Tooltip title="Compartilhar no Facebook" placement="bottom">
         <Social>
-          <FiLinkedin size={20} onClick={linkedin} fill={color} color={color} />
+          <FiLinkedin size={20} onClick={facebook} fill={color} color={color} />
         </Social>
       </Tooltip>
 
-      <Popper id={id} open={open} anchorEl={anchorEl}>
-        <Dropdown>
+      <Tooltip title="Compartilhar no Twitter" placement="bottom">
+        <Social>
+          <FiLinkedin size={20} onClick={twitter} fill={color} color={color} />
+        </Social>
+      </Tooltip>
 
-          <Item fill={color} color={color} onClick={linkedin}>
-            <p>LinkedIn</p>
-            <FiLinkedin/>
-          </Item>
+      <Tooltip title="Enviar no WhatsApp" placement="bottom">
+        <Social>
+          <FiLinkedin size={20} onClick={whatsapp} fill={color} color={color} />
+        </Social>
+      </Tooltip>
 
-          <Item fill={color} color={color} onClick={facebook}>
-            <p>Facebook</p>
-            <FiFacebook/>
-          </Item>
+      <Tooltip title="Enviar no Telegram" placement="bottom">
+        <Social>
+          <FiLinkedin size={20} onClick={telegram} fill={color} color={color} />
+        </Social>
+      </Tooltip>
 
-          <Item fill={color} color={color} onClick={whatsapp}>
-            <p>WhatsApp</p>
-            <FiMessageCircle/>
-          </Item>
-
-          <Item fill={color} color={color} onClick={() => (window.location.href = "https://www.buymeacoffee.com/dmraptis")}>
-            <FiGift />
-            <p>Link 03</p>
-          </Item>
-
-        </Dropdown>
-      </Popper>
-
-      <Tooltip title="Conectar no Linkedin" placement="bottom">
+      <Tooltip title="Compartilhar no LinkedIn" placement="bottom">
         <Social>
           <FiLinkedin size={20} onClick={linkedin} fill={color} color={color} />
         </Social>
