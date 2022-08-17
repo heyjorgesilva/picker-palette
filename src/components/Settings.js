@@ -143,7 +143,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
       <p>Compartilhe</p>
       </Item>
 
-      <Item fill={color} color={color} onClick={linkedin}>
+      <Item size={20} onClick={linkedin} fill={color} color={color}>
         <FiLinkedin/>
       </Item>
 
@@ -165,7 +165,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
             <FiMessageCircle/>
           </Item>
 
-          <Item fill={color} olor={color} onClick={() => (window.location.href = "https://www.buymeacoffee.com/dmraptis")}>
+          <Item fill={color} color={color} onClick={() => (window.location.href = "https://www.buymeacoffee.com/dmraptis")}>
             <FiGift />
             <p>Link 03</p>
           </Item>
