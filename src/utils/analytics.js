@@ -8,7 +8,7 @@ const analytics = Analytics({
   debug: process.env.NODE_ENV !== "production",
   plugins: [
     googleAnalyticsPlugin({
-      trackingId: "UA-171487599-4",
+      trackingId: "UA-237913259-1",
     }),
   ],
 });
