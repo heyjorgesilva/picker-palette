@@ -140,9 +140,13 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
 
       <Item>
       <FiShare2 onClick={handleClick} size={20} />
-      <p>Curtiu? Compartilhe</p>
+      <p>Compartilhe</p>
       </Item>
-      <Item fill={color} color={color} onClick={linkedin}></Item>
+
+      <Item fill={color} color={color} onClick={linkedin}>
+        <FiLinkedin/>
+      </Item>
+
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
 
