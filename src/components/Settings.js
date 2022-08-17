@@ -89,7 +89,7 @@ const Social = styled.div`
 
 const linkedin = () => {
   const url =
-    "https://www.linkedin.com/in/ojorgesilva";
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://pickerpalette.jorgesilva.design";
   const win = window.open(url, "_blank", "width=640, height=480, left=640, top=200");
   win.focus();
 };
@@ -115,9 +115,9 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
 
-          <Item color={color} onClick={handleType}>
-            <FiEdit />
-            <p>Link 01</p>
+          <Item color={color} onClick={linkedin}>
+            <FiLinkedin />
+            <p>LinkedIn</p>
           </Item>
 
           <Item color={color} onClick={() => history.push("/about")}>
