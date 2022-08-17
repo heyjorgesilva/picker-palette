@@ -32,7 +32,7 @@ const CopyButton = ({ text }) => {
     <CopyToClipboard
       text={text}
       onCopy={() =>
-        addToast(`${getRandomInterjection()}! Copiado! 👍`, {
+        addToast(`${getRandomInterjection()}! ✅ Copiado!`, {
           appearance: "success",
           autoDismiss: true
         })
