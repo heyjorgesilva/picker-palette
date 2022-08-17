@@ -19,7 +19,7 @@ const Container = styled.div`
     margin-right: 1rem;
   }
 
-  font-size: 2rem;
+  font-size: 1rem;
   color: ${props => props.theme.colors.neutrals[100]};
 `;
 
