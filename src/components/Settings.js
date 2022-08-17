@@ -11,6 +11,7 @@ import {
   FiHeart,
   FiLinkedin,
   FiFacebook,
+  FiMessageCircle,
   FiShare2
 } from "react-icons/fi";
 import Popper from "@material-ui/core/Popper";
@@ -88,16 +89,37 @@ const Social = styled.div`
   }
 `;
 
-const linkedin = () => {
+const facebook = () => {
   const url =
-    "https://www.linkedin.com/shareArticle?mini=true&url=https://pickerpalette.jorgesilva.design";
+    "https://www.facebook.com/sharer/sharer.php?u=https://pickerpalette.jorgesilva.design";
   const win = window.open(url, "_blank", "width=640, height=480, left=640, top=200");
   win.focus();
 };
 
-const facebook = () => {
+const twitter = () => {
   const url =
-    "https://www.facebook.com/sharer/sharer.php?u=https://pickerpalette.jorgesilva.design";
+    "https://bit.ly/twitter-pickerpalette";
+  const win = window.open(url, "_blank", "width=640, height=480, left=640, top=200");
+  win.focus();
+};
+
+const whatsapp = () => {
+  const url =
+    "https://bit.ly/whatsapp-pickerpalette";
+  const win = window.open(url, "_blank", "width=640, height=480, left=640, top=200");
+  win.focus();
+};
+
+const telegram = () => {
+  const url =
+    "https://telegram.me/share/url?url=https://pickerpalette.jorgesilva.design";
+  const win = window.open(url, "_blank", "width=640, height=480, left=640, top=200");
+  win.focus();
+};
+
+const linkedin = () => {
+  const url =
+    "https://www.linkedin.com/shareArticle?mini=true&url=https://pickerpalette.jorgesilva.design";
   const win = window.open(url, "_blank", "width=640, height=480, left=640, top=200");
   win.focus();
 };
@@ -120,6 +142,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
       <FiShare2 onClick={handleClick} size={20} />
       <p>Curtiu? Compartilhe</p>
       </Item>
+      <Item fill={color} color={color} onClick={linkedin}></Item>
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
 
@@ -131,6 +154,11 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
           <Item fill={color} color={color} onClick={facebook}>
             <p>Facebook</p>
             <FiFacebook/>
+          </Item>
+
+          <Item fill={color} color={color} onClick={whatsapp}>
+            <p>WhatsApp</p>
+            <FiMessageCircle/>
           </Item>
 
           <Item fill={color} olor={color} onClick={() => (window.location.href = "https://www.buymeacoffee.com/dmraptis")}>
