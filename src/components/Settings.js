@@ -9,7 +9,8 @@ import {
   FiInfo,
   FiEdit,
   FiHeart,
-  FiLinkedin
+  FiLinkedin,
+  FiShare2
 } from "react-icons/fi";
 import Popper from "@material-ui/core/Popper";
 
@@ -89,7 +90,7 @@ const Social = styled.div`
 const linkedin = () => {
   const url =
     "https://www.linkedin.com/in/ojorgesilva";
-  const win = window.open(url, "_blank", "width=200, height=200");
+  const win = window.open(url, "_blank", "width=640, height=355");
   win.focus();
 };
 
@@ -108,8 +109,8 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
 
 
       <Item>
-      <FiSettings onClick={handleClick} size={20} />
-      <p>Seguir nas redes</p>
+      <FiShare2 onClick={handleClick} size={20} />
+      <p>Curtiu? Compartilhe</p>
       </Item>
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
