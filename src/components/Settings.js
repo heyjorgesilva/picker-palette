@@ -89,7 +89,14 @@ const Social = styled.div`
 
 const linkedin = () => {
   const url =
-    "https://www.linkedin.com/sharing/share-offsite/?url=https://pickerpalette.jorgesilva.design";
+    "https://www.linkedin.com/shareArticle?mini=true&url=https://pickerpalette.jorgesilva.design";
+  const win = window.open(url, "_blank", "width=640, height=480, left=640, top=200");
+  win.focus();
+};
+
+const facebook = () => {
+  const url =
+    "https://www.facebook.com/sharer/sharer.php?u=https://pickerpalette.jorgesilva.design";
   const win = window.open(url, "_blank", "width=640, height=480, left=640, top=200");
   win.focus();
 };
@@ -115,17 +122,17 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
       <Popper id={id} open={open} anchorEl={anchorEl}>
         <Dropdown>
 
-          <Item color={color} onClick={linkedin}>
-            <FiLinkedin />
+          <Item fill={color} color={color} onClick={linkedin}>
             <p>LinkedIn</p>
+            <FiLinkedin/>
           </Item>
 
-          <Item color={color} onClick={() => history.push("/about")}>
-            <FiInfo />
-            <p>Link 02</p>
+          <Item fill={color} color={color} onClick={facebook}>
+            <p>Facebook</p>
+            <FiFacebook/>
           </Item>
 
-          <Item color={color} onClick={() => (window.location.href = "https://www.buymeacoffee.com/dmraptis")}>
+          <Item fill={color} olor={color} onClick={() => (window.location.href = "https://www.buymeacoffee.com/dmraptis")}>
             <FiGift />
             <p>Link 03</p>
           </Item>
