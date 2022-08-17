@@ -141,25 +141,25 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
 
       <Tooltip title="Compartilhar no Facebook" placement="bottom">
         <Social>
-          <FiLinkedin size={20} onClick={facebook} fill={color} color={color} />
+          <FiFacebook size={20} onClick={facebook} fill={color} color={color} />
         </Social>
       </Tooltip>
 
       <Tooltip title="Compartilhar no Twitter" placement="bottom">
         <Social>
-          <FiLinkedin size={20} onClick={twitter} fill={color} color={color} />
+          <FiTwitter size={20} onClick={twitter} fill={color} color={color} />
         </Social>
       </Tooltip>
 
       <Tooltip title="Enviar no WhatsApp" placement="bottom">
         <Social>
-          <FiLinkedin size={20} onClick={whatsapp} fill={color} color={color} />
+          <FiMessageCircle size={20} onClick={whatsapp} fill={color} color={color} />
         </Social>
       </Tooltip>
 
       <Tooltip title="Enviar no Telegram" placement="bottom">
         <Social>
-          <FiLinkedin size={20} onClick={telegram} fill={color} color={color} />
+          <FiSend size={20} onClick={telegram} fill={color} color={color} />
         </Social>
       </Tooltip>
 
