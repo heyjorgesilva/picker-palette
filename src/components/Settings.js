@@ -32,7 +32,7 @@ const Wrapper = styled.div`
   right: 0; */
 
   & > * {
-    margin-left: 2rem;
+    margin-left: 1.3rem;
   }
 `;
 
@@ -149,25 +149,25 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
 
       <Tooltip title="Compartilhar no Twitter" placement="bottom">
         <Social>
-          <FiTwitter size={20} onClick={twitter} fill={color} color={color} />
+          <FiTwitter onClick={twitter} size={20} />
         </Social>
       </Tooltip>
 
       <Tooltip title="Enviar no WhatsApp" placement="bottom">
         <Social>
-          <FiMessageCircle size={20} onClick={whatsapp} fill={color} color={color} />
+          <FiMessageCircle onClick={whatsapp} size={20} />
         </Social>
       </Tooltip>
 
       <Tooltip title="Enviar no Telegram" placement="bottom">
         <Social>
-          <FiSend size={20} onClick={telegram} fill={color} color={color} />
+          <FiSend onClick={telegram} size={20} />
         </Social>
       </Tooltip>
 
       <Tooltip title="Compartilhar no LinkedIn" placement="bottom">
         <Social>
-          <FiLinkedin size={20} onClick={linkedin} fill={color} color={color} />
+          <FiLinkedin onClick={linkedin} size={20} />
         </Social>
       </Tooltip>
 

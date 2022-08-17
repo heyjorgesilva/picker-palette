@@ -24,13 +24,13 @@ const Container = styled.div`
   }
 `;
 
-const Logo = () => (
-  <Link to="/">
-    <Container>
-      <LogoIcon width={32} height={32} />
-      <p>Picker Palette</p>
-    </Container>
-  </Link>
-);
+// const Logo = () => (
+//   <Link to="/">
+//     <Container>
+//       <LogoIcon width={32} height={32} />
+//       <p>Picker Palette</p>
+//     </Container>
+//   </Link>
+// );
 
 export default Logo;
