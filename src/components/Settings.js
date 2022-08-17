@@ -143,7 +143,7 @@ const Settings = ({ history, handleTheme, handleType, color }) => {
 
       <Tooltip title="Compartilhar no Facebook" placement="bottom">
         <Social>
-          <FiFacebook size={20} onClick={facebook} fill={color} color={color} />
+          <FiFacebook onClick={facebook} size={20} />
         </Social>
       </Tooltip>
 
