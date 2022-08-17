@@ -9,10 +9,12 @@ import {
   FiInfo,
   FiEdit,
   FiHeart,
-  FiLinkedin,
+  FiShare2,
   FiFacebook,
+  FiTwitter,
   FiMessageCircle,
-  FiShare2
+  FiSend,
+  FiLinkedin
 } from "react-icons/fi";
 import Popper from "@material-ui/core/Popper";
 
