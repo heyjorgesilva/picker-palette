@@ -17,7 +17,7 @@ const Container = styled.div`
 `;
 
 const Sup = styled.sup`
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: ${props => props.theme.colors.neutrals[500]};
 `;
 
@@ -33,15 +33,15 @@ const Footer = ({ color }) => {
   return (
     <Container>
       <Sup>
-        <Anchor href="https://www.linkedin.com/in/ojorgesilva" title="Conectar no Linkedin" alt="Conectar no Linkedin" color={color}>
+        <Anchor href="https://www.linkedin.com/in/ojorgesilva" target="_blank" title="Conectar no Linkedin" alt="Conectar no Linkedin" color={color}>
           Linkedin
         </Anchor>
         {" "}|{" "}
         <Anchor href="https://artigos.jorgesilva.design/" color={color}>
-          Artigos
+          Medium
         </Anchor>
         {" "}|{" "}
-        <Anchor href="https://artigos.jorgesilva.design/" color={color}>
+        <Anchor href="https://dribbble.com/ojorgesilva" color={color}>
           Dribbble
         </Anchor>                
       </Sup>
