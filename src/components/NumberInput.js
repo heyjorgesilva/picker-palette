@@ -26,7 +26,7 @@ const CustomButton = styled.button`
       ? props.theme.colors.primary[500]
       : props.theme.colors.primary[500]};
 
-  font-size: 16px;
+  font-size: 32px;
   font-weight: bold;
   cursor: ${props => (props.disabled ? "not-allowed" : "pointer")};
 `;
