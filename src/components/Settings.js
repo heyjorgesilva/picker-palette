@@ -81,7 +81,7 @@ const Social = styled.div`
   cursor: pointer;
 
   &:hover {
-    color: ${props => props.color};
+    color: #6e33ff};
   }
   & > * {
     margin-right: 0.5rem;
