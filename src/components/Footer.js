@@ -22,21 +22,6 @@ const Sup = styled.sup`
   color: ${props => props.theme.colors.neutrals[500]};
 `;
 
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /* position: fixed;
-  padding: 2rem;
-  top: 0;
-  right: 0; */
-
-  & > * {
-    margin-left: 1.3rem;
-  }
-`;
-
 const Anchor = styled.a`
   color: ${props => props.color};
   font-weight: bold;
@@ -48,9 +33,8 @@ const Anchor = styled.a`
 const Footer = ({ color }) => {
   return (
     <Container>
-      <Wrapper>
       <Sup>
-      <p>Get in touch:</p>
+      Get in touch:
         <Tooltip title="Acessibilidade Digital" placement="top">
           <Anchor href="https://brasil.uxdesign.cc/acessibilidade-digital-por-que-%C3%A9-t%C3%A3o-importante-o-seu-produto-ter-um-design-mais-inclusivo-a854ad4ee2f2?source=user_profile---------0----------------------------" target="_blank" color={color}>
           Acessibilidade Digital
@@ -81,7 +65,6 @@ const Footer = ({ color }) => {
           </Anchor>                
         </Tooltip>
       </Sup>
-      </Wrapper>
     </Container>
   );
 };
