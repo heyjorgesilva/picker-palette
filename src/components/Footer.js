@@ -22,6 +22,21 @@ const Sup = styled.sup`
   color: ${props => props.theme.colors.neutrals[500]};
 `;
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed;
+  padding: 2rem;
+  top: 0;
+  right: 0; */
+
+  & > * {
+    margin-left: 1.3rem;
+  }
+`;
+
 const Anchor = styled.a`
   color: ${props => props.color};
   font-weight: bold;
