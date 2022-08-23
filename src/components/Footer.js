@@ -12,14 +12,13 @@ const Container = styled.div`
   background-color: ${props => props.theme.colors.neutrals[100]};
 
   position: fixed;
-  top: 2rem;
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
 `;
 
 const Sup = styled.sup`
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: ${props => props.theme.colors.neutrals[500]};
 `;
 
