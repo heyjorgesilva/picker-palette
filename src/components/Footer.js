@@ -33,6 +33,7 @@ const Anchor = styled.a`
 const Footer = ({ color }) => {
   return (
     <Container>
+      <Wrapper>
       <Sup>
       <p>Get in touch:</p>
         <Tooltip title="Acessibilidade Digital" placement="top">
@@ -65,6 +66,7 @@ const Footer = ({ color }) => {
           </Anchor>                
         </Tooltip>
       </Sup>
+      </Wrapper>
     </Container>
   );
 };
