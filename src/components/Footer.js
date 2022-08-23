@@ -35,12 +35,6 @@ const Footer = ({ color }) => {
     <Container>
       <Sup>
       {" "}Get in touch:{" "}
-        <Tooltip title="Acessibilidade Digital" placement="top">
-          <Anchor href="https://brasil.uxdesign.cc/acessibilidade-digital-por-que-%C3%A9-t%C3%A3o-importante-o-seu-produto-ter-um-design-mais-inclusivo-a854ad4ee2f2?source=user_profile---------0----------------------------" target="_blank" color={color}>
-          Acessibilidade Digital
-          </Anchor>
-        </Tooltip>
-        {" "}|{" "}
         <Tooltip title="Conectar no Linkedin" placement="top">
           <Anchor href="https://www.linkedin.com/in/ojorgesilva" target="_blank" color={color}>
           Linkedin
