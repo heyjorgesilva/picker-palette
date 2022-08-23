@@ -36,31 +36,31 @@ const Footer = ({ color }) => {
       <Sup>
       <Tooltip title="Acessibilidade Digital" placement="top">
           <Anchor href="https://brasil.uxdesign.cc/acessibilidade-digital-por-que-%C3%A9-t%C3%A3o-importante-o-seu-produto-ter-um-design-mais-inclusivo-a854ad4ee2f2?source=user_profile---------0----------------------------" target="_blank" color={color}>
-          Linkedin
+          Acessibilidade Digital
           </Anchor>
         </Tooltip>
         {" "}|{" "}
         <Tooltip title="Conectar no Linkedin" placement="top">
           <Anchor href="https://www.linkedin.com/in/ojorgesilva" target="_blank" color={color}>
-          Conectar no Linkedin
+          Linkedin
           </Anchor>
         </Tooltip>
         {" "}|{" "}
         <Tooltip title="Ler artigos" placement="top">  
           <Anchor href="https://artigos.jorgesilva.design"  target="_blank" color={color}>
-          Meus Artigos
+          Medium
           </Anchor>
         </Tooltip>
         {" "}|{" "}
         <Tooltip title="Ver Shots no Dribbble" placement="top">
           <Anchor href="https://dribbble.com/ojorgesilva"  target="_blank" color={color}>
-          Siga no Dribbble
+          Dribbble
           </Anchor>                
         </Tooltip>
         {" "}|{" "}
         <Tooltip title="Ver Projetos no Behance" placement="top">
           <Anchor href="https://www.behance.net/ojorgesilva"  target="_blank" color={color}>
-          Siga no Behance
+          Behance
           </Anchor>                
         </Tooltip>
       </Sup>
